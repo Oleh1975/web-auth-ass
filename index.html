@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML by OLEH</title>
+</head>
+
+<body>
+<h1>Introduction to HTML by OLEH</h1>
+	
+	<h2>Doctype</h2>
+	
+		<h3>Description</h3>
+<p> All HTML documents must start with a<!DOCTYPE>declaration</p>
+			<p>The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.</p>
+
+		<h3>Example</h3>
+			<p>&lt;!doctype html&gt;</p>
+			
+<h2>HTML</h2>
+	
+		<h3>Description</h3>
+		<p>The tag represents the root of an HTML document.</p>
+<p>The container for all other HTML elements (except for the &lt;!DOCTYPE&gt; tag).</p>
+		<h3>Example</h3>
+		<p>&lt;html&gt;</p>
+		<p>&lt;/html&gt; <br></p>
+	<h2>Head</h2>
+		<h3>Description</h3>
+		<p>The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; 
+tag.</p>
+		<p>Metadata is data about the HTML document. Metadata is not displayed.</p>
+		<p>Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+		<h3>Example</h3>
+		<p>&lt;head&gt;</p>
+		<p>&lt;/head&gt;	</p>
+	<h2>Body</h2>
+	
+		<h3>Description</h3>
+		<p>The &lt;body&gt; tag defines the document's body.</p>
+		<p>The &lt;body&gt; element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+		<h3>Example</h3>
+		<p>&lt;body&gt;</p>
+		<p>&lt;/body&gt;	</p>
+	<h2>Title</h2>
+	
+		<h3>Description</h3>
+		<p>The &lt;title&gt; tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</p>
+		<p>The &lt;title&gt; tag is required in HTML documents!</p>
+		<p>The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.</p>
+		<h3>Example</h3>
+		<p>&lt;title&gt;</p>
+			<p>&lt;/title&gt;</p>
+	
+	<h2>p</h2>
+	
+		<h3>Description</h3>
+		<p>The &lt;p&gt; tag defines a paragraph.</p>
+		<p>Browsers automatically add a single blank line before and after each &lt;p&gt; element.</p>
+		<h3>Example</h3>
+			<p>&lt;p&gt;Ths is a paragraph&lt;/p&gt;</p>
+	
+		<h3>Works example</h3>
+<p>Ths is a paragraph</p>
+	
+	<h2>span</h2>
+	
+		<h3>Description</h3>
+			<p>The &lt;span&gt; tag is an inline container used to mark up a part of a text, or a part of a document.</p>
+			<p>The &lt;span&gt; tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.</p>
+			<p>The &lt;span&gt; tag is much like the &lt;div&gt; element, but &lt;div&gt; is a block-level element and &lt;span&gt; is an inline element.</p>
+			<br>
+		<h3>Example</h3>
+<p> &lt;p&gt;This is a &lt;span style=&quot;color:red&quot;&gt;inline span.&lt;/span&gt;This is outside the span&lt;/p&gt;</p>
+		<h3>Works example</h3>
+<p>This is a <span style="color:red">inline span.</span>This is outside the span</p>
+	
+	<h2>div</h2>
+	
+		<h3>Description</h3>
+	
+	
+<p>The &lt;div&gt; element is used as a container for other HTML elements.</p>
+<p>The &lt;div&gt; element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after.</p>
+<p>The &lt;div&gt; element has no required attributes, but style, class and id are common.</p>
+<p>The &lt;div&gt; element is often used to group sections of a web page together.</p>
+		<h3>Example</h3>
+		<p>&lt;div style=&quot;background-color:yellow&quot;&gt;&lt;p&gt;This is the div element.&lt;/p&gt;&lt;/div&gt; </p>
+		<h3>Works example</h3>
+	<div style="background-color:yellow"><p>This is the div element.</p></div>
+		
+<h2>Heading elements-h1 to h6</h2>
+	
+		<h3>Description</h3>
+		<p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+		<p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</p>
+<p>&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+		<h3>Example</h3>
+<p>&lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+&lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+&lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+&lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+&lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+&lt;h6&gt;Heading 6&lt;/h6&gt;<br>
+</p>
+		<h3>Works example</h3>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+	
+	<h2>formatting elements-strong, emphasis</h2>
+	
+		<h3>Description</h3>
+		<p>The HTML &lt;strong&gt; element defines text with strong importance. The content inside is typically displayed in bold.</p>
+		<p>The HTML &lt;em&gt; element defines emphasized text. The content inside is typically displayed in italic.</p>
+		<h3>Example</h3>
+		<p>&lt;p&gt;This text is &lt;strong&gt;IMPORTAND.&lt;/strong&gt;&lt;/p&gt;</p>
+		<p>&lt;p&gt;This text is &lt;em&gt;EMPHASIZED.&lt;/em&gt;&lt;/p&gt;</p>
+		<h3>Works example</h3>
+		<p>This text is <strong>IMPORTAND.</strong></p>
+		<p>This text is <em>EMPHASIZED.</em></p>
+	
+	<h2>tables &amp; caption</h2>
+	
+		<h3>Description</h3>
+		<p>HTML tables allow web developers to arrange data into rows and columns.</p>
+		<p>A table in HTML consists of table cells inside rows and columns.</p>
+		<p>Each table cell is defined by a &lt;td&gt; and a &lt;/td&gt; tag.</p>
+		<p>Everything between &lt;td&gt; and &lt;/td&gt; is the content of a table cell.</p>
+		<h3>Example</h3>
+		<p> &lt;table width=&quot;200&quot; border=&quot;5&quot;&gt;<br>
+&lt;caption&gt;<br>
+my Table<br>
+&lt;/caption&gt;<br>
+&lt;tbody&gt;<br>
+&lt;tr&gt;<br>
+&lt;th scope=&quot;col&quot;&gt;Monday&lt;/th&gt;<br>
+&lt;th scope=&quot;col&quot;&gt;Tuesday&lt;/th&gt;<br>
+&lt;th scope=&quot;col&quot;&gt;Wednesday&lt;/th&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;5&lt;/td&gt;<br>
+&lt;td&gt;10&lt;/td&gt;<br>
+&lt;td&gt;15&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td&gt;3&lt;/td&gt;<br>
+&lt;td&gt;7&lt;/td&gt;<br>
+&lt;td&gt;30&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/tbody&gt;<br>
+&lt;/table&gt;<br>
+		</p>
+		<h3>Works example</h3>
+		<table width="200" border="5">
+  <caption>
+    my Table
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>10</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>7</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+	<h2>lists</h2>
+	
+		<h3>Description</h3>
+		<p>HTML lists allow web developers to group a set of related items in lists.</p>
+		<p>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</p>
+		<p>An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.</p>
+		<p>The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term</p>
+		<h3>Example</h3>
+<p>&lt;ul&gt;<br>
+&lt;li&gt;Coffee&lt;/li&gt;<br>
+&lt;li&gt;Milk&lt;/li&gt;<br>
+&lt;li&gt;Tea&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
+&lt;ol&gt;<br>
+&lt;li&gt;Coffee&lt;/li&gt;<br>
+&lt;li&gt;Milk&lt;/li&gt;<br>
+&lt;li&gt;Tea&lt;/li&gt;<br>
+&lt;/ol&gt;<br>
+&lt;dl&gt;<br>
+&lt;dt&gt;Coffee&lt;/dt&gt;<br>
+&lt;dd&gt;black hot drink&lt;/dd&gt;<br>
+&lt;dt&gt;Milk&lt;/dt&gt;<br>
+&lt;dd&gt;cold white drink&lt;/dd&gt;<br>
+&lt;/dl&gt;</p>
+		<h3>Works example</h3>
+		<ul>
+			<li>Coffee</li>
+			<li>Milk</li>
+			<li>Tea</li>
+		</ul>
+		<ol>
+			<li>Coffee</li>
+			<li>Milk</li>
+			<li>Tea</li>
+		</ol>
+		<dl>
+			<dt>Coffee</dt>
+			<dd>black hot drink</dd>
+			<dt>Milk</dt>
+			<dd>cold white drink</dd>
+		</dl>
+	<h2>images &amp; Alt</h2>
+	
+		<h3>Description</h3>
+		<p>Images can improve the design and the appearance of a web page.</p>
+<p>The HTML &lt;img&gt; tag is used to embed an image in a web page.</p>
+<p>The &lt;img&gt; tag creates a holding space for the referenced image.</p>
+		<p>The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).<br>
+</p>
+		<h3>Example</h3>
+<p>&lt;img src=&quot;images/car_small.jpg&quot; width=&quot;480&quot; height=&quot;320&quot; alt=&quot;&quot;/&gt;</p>
+		<h3>Works example</h3>
+	<img src="images/car_small.jpg" width="480" height="320" alt=""/>
+<h2>links</h2>
+	
+		<h3>Description</h3>
+		<p>Links are found in nearly all web pages. Links allow users to click their way from page to page.		</p>
+		<h3>Example</h3>
+<p>&lt;a href=&quot;https://www.discoveryeducation.com/&quot;&gt;Discovery Education&lt;/a&gt;</p>
+		<h3>Works example</h3>
+		<a href="https://www.discoveryeducation.com/">Discovery Education</a>
+	
+	<h2>quote &amp; blockquote</h2>
+	
+		<h3>Description</h3>
+<p>The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.</p>
+<p>Browsers usually indent &lt;blockquote&gt; elements.</p>
+<p>The HTML &lt;q&gt; tag defines a short quotation.</p>
+<p>Browsers normally insert quotation marks around the quotation.</p>
+
+		<h3>Example</h3>
+<p>&lt;p&gt;&amp;quot;I realy like an animals.&amp;quot;&lt;/p&gt;</p>
+<p>&lt;blockquote&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et accusantium excepturi nobis. Mollitia voluptatem aut laboriosam labore quae quasi voluptates dignissimos vitae repudiandae, deserunt blanditiis. Ea soluta illum at fugiat.&lt;/blockquote&gt;</p>
+		<h3>Works example</h3>
+<p>&quot;I realy like an animals.&quot;</p>
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et accusantium excepturi nobis. Mollitia voluptatem aut laboriosam labore quae quasi voluptates dignissimos vitae repudiandae, deserunt blanditiis. Ea soluta illum at fugiat.</blockquote>
+	
+	<h2>abbreviations</h2>
+	
+		<h3>Description</h3>
+		<p>The HTML &lt;abbr&gt; tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p>
+<p>Marking abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+		<h3>Example</h3>
+<p>&lt;p&gt;The &lt;abbr title=&quot;United Nations&quot;&gt;UN&lt;/abbr&gt; created on October 24,1945&lt;/p&gt;</p>
+		<h3>Works example</h3>
+		<p>The <abbr title="United Nations">UN</abbr> created on October 24,1945</p>
+	
+	<h2>meta</h2>
+	
+		<h3>Description</h3>
+		<p>Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.</p>
+		<h3>Example</h3>
+		<p>&lt;meta name=&quot;keywords&quot; content=&quot;HTML,CSS,Code&quot;&gt;</p>
+		<p>&lt;meta name=&quot;description&quot; content=&quot;This is my website&quot;&gt;</p>
+<h2>forms</h2>
+	
+		<h3>Description</h3>
+		<p>The &lt;form&gt; tag is used to create an HTML form for user input.</p>
+		
+		<h3>Example</h3>
+		<p>&lt;form&gt;<br>
+&lt;label&gt;Type in your name:&lt;/label&gt;&lt;input type=&quot;text&quot;&gt;<br>
+<br>
+<br>
+&lt;/form&gt;</p>
+		<h3>Works example</h3>
+	<form>
+	<label>Type in your name:</label><input type="text">
+	</form>
+	
+	<h2>Special symbols and character entities:</h2>
+	
+		<h3>Description</h3>
+<p>Symbols or letters that are not present on your keyboard can be added to HTML using entities.</p>
+<p>To add such symbols to an HTML page, you can use the entity name or the entity number (a decimal or a hexadecimal reference) for the symbol</p>
+		<h3>Example</h3>
+		<p>&lt;p&gt;I will display &amp;euro;&lt;/p&gt;<br>
+&lt;p&gt;I will display &amp;copy;&lt;/p&gt;<br>
+&lt;p&gt;I will display &amp;reg;&lt;/p&gt;<br>
+&lt;p&gt;I will display &amp;trade;&lt;/p&gt;<br>
+&lt;p&gt;I will display &amp;larr;&lt;/p&gt;<br>
+&lt;p&gt;I will display &amp;spades;&lt;/p&gt;<br>
+&lt;p&gt;I will display &amp;amp;&lt;/p&gt;<br>
+&lt;p&gt;I will display a&amp;#769;&lt;/p&gt;</p>
+
+		<h3>Works example</h3>
+		<p>I will display &euro;</p>
+		<p>I will display &copy;</p>
+		<p>I will display &reg;</p>
+		<p>I will display &trade;</p>
+		<p>I will display &larr;</p>
+		<p>I will display &spades;</p>
+		<p>I will display &amp;</p>
+		<p>I will display a&#769;</p>
+	
+	<a href="css_assignment.html">CSS assignment</a>
+</body>
+</html>
